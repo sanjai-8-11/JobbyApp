@@ -1,0 +1,43 @@
+.header-container {
+  height: 60px;
+  width: 100%;
+  background-color: #2d2d2e;
+  display: flex;
+
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 20px;
+  padding-right: 0px;
+}
+
+.header-icons {
+  color: #fff;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+}
+
+.logout-button {
+  border: none;
+  background-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .large-device-header {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .small-device-headers {
+    display: none;
+  }
+}
